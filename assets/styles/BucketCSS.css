@@ -1,0 +1,454 @@
+/*html, body {*/
+/*    background-color: #c88745;*/
+/*    height: 100%;*/
+/*}*/
+
+/*body {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*main {*/
+/*    flex: 1;*/
+/*}*/
+
+/*header {*/
+/*    background-color: darkolivegreen;*/
+/*}*/
+
+/*footer {*/
+/*    text-align: center;*/
+/*    background-color: #ad5d00;*/
+/*    padding: 1em;*/
+
+/*}*/
+
+/*a {*/
+/*    color: black;*/
+/*}*/
+
+/*a:hover {*/
+/*    color: white;*/
+/*}*/
+
+/*.tortue {*/
+/*    width: 15%;*/
+/*}*/
+
+
+
+/* -------------------------- HOUSE OF THE DEAD -------------------------------------- */
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');*/
+
+/*!* Base *!*/
+/*html, body {*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background-color: #0c0c0c;*/
+/*    color: #f2f2f2;*/
+/*    font-family: 'Creepster', cursive;*/
+/*    overflow-x: hidden;*/
+/*}*/
+
+/*body {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*!* Header *!*/
+/*header {*/
+/*    background-color: #1e1e1e;*/
+/*    border-bottom: 4px solid #8b0000;*/
+/*    padding: 1rem 2rem;*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 3px;*/
+/*    font-size: 2rem;*/
+/*    box-shadow: 0 0 15px #8b0000;*/
+/*    animation: pulse 3s infinite;*/
+/*}*/
+
+/*!* Footer *!*/
+/*footer {*/
+/*    text-align: center;*/
+/*    background-color: #8b0000;*/
+/*    padding: 1em;*/
+/*    color: #fff0f0;*/
+/*    font-size: 1rem;*/
+/*    border-top: 2px solid #330000;*/
+/*    box-shadow: 0 -2px 10px #330000;*/
+/*}*/
+
+/*!* Main *!*/
+/*main {*/
+/*    flex: 1;*/
+/*    padding: 2rem;*/
+/*    background: radial-gradient(circle at center, #1a1a1a, #0c0c0c);*/
+/*}*/
+
+/*!* Liens *!*/
+/*a {*/
+/*    color: #c1ff72;*/
+/*    text-decoration: none;*/
+/*    font-weight: bold;*/
+/*    position: relative;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*a::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: -2px;*/
+/*    width: 100%;*/
+/*    height: 2px;*/
+/*    background-color: #c1ff72;*/
+/*    transform: scaleX(0);*/
+/*    transition: transform 0.3s ease;*/
+/*    transform-origin: right;*/
+/*}*/
+
+/*a:hover::after {*/
+/*    transform: scaleX(1);*/
+/*    transform-origin: left;*/
+/*}*/
+
+/*a:hover {*/
+/*    color: #ff3131;*/
+/*    text-shadow: 0 0 5px #ff3131;*/
+/*}*/
+
+/*!* Image (tortue) *!*/
+/*.tortue {*/
+/*    width: 15%;*/
+/*    border: 3px solid #8b0000;*/
+/*    box-shadow: 0 0 10px #000;*/
+/*    animation: float 4s ease-in-out infinite;*/
+/*}*/
+
+/*!* Titres *!*/
+/*h1, h2, h3 {*/
+/*    font-family: 'Creepster', cursive;*/
+/*    color: #ff3131;*/
+/*    text-shadow: 2px 2px #000;*/
+/*    animation: flicker 2s infinite;*/
+/*}*/
+
+/*!* ANIMATIONS *!*/
+
+/*@keyframes flicker {*/
+/*    0%, 100% { opacity: 1; }*/
+/*    45% { opacity: 0.8; }*/
+/*    50% { opacity: 0.4; }*/
+/*    55% { opacity: 0.8; }*/
+/*    60% { opacity: 0.5; }*/
+/*    70% { opacity: 1; }*/
+/*}*/
+
+/*@keyframes pulse {*/
+/*    0% { box-shadow: 0 0 15px #8b0000; }*/
+/*    50% { bo*/
+
+/* -------------------------- CALL OF ZOMBIES -------------------------------------- */
+
+/*@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');*/
+
+/*html, body {*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background: radial-gradient(circle at center, #0d0d0d, #000000);*/
+/*    color: #e0e0e0;*/
+/*    font-family: 'Share Tech Mono', monospace;*/
+/*    overflow-x: hidden;*/
+/*}*/
+
+/*body {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*!* Header - militaire + menace *!*/
+/*header {*/
+/*    background-color: #1b1b1b;*/
+/*    border-bottom: 3px solid #8f0000;*/
+/*    padding: 1.5rem 2rem;*/
+/*    text-transform: uppercase;*/
+/*    font-size: 2rem;*/
+/*    letter-spacing: 3px;*/
+/*    color: #ff0000;*/
+/*    box-shadow: 0 0 15px #8f0000;*/
+/*    animation: flicker 3s infinite;*/
+/*}*/
+
+/*!* Footer - sang + data *!*/
+/*footer {*/
+/*    text-align: center;*/
+/*    background-color: #330000;*/
+/*    padding: 1em;*/
+/*    color: #ffdddd;*/
+/*    font-size: 0.9rem;*/
+/*    border-top: 2px solid #8f0000;*/
+/*    box-shadow: 0 -2px 10px #8f0000;*/
+/*    font-style: italic;*/
+/*    letter-spacing: 1px;*/
+/*}*/
+
+/*!* Main - ambiance base secrète *!*/
+/*main {*/
+/*    flex: 1;*/
+/*    padding: 2rem;*/
+/*    background: repeating-linear-gradient(*/
+/*            45deg,*/
+/*            #0c0c0c,*/
+/*            #0c0c0c 10px,*/
+/*            #121212 10px,*/
+/*            #121212 20px*/
+/*    );*/
+/*}*/
+
+/*!* Liens *!*/
+/*a {*/
+/*    color: #ff3131;*/
+/*    text-decoration: none;*/
+/*    font-weight: bold;*/
+/*    position: relative;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*a:hover {*/
+/*    color: #ffffff;*/
+/*    text-shadow: 0 0 5px #ff3131;*/
+/*    letter-spacing: 2px;*/
+/*}*/
+
+/*!* Boutons zombie-style *!*/
+/*.btn-zombie {*/
+/*    background-color: #8f0000;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    padding: 0.5em 1.5em;*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 1px;*/
+/*    box-shadow: 0 0 10px #8f0000;*/
+/*    transition: 0.3s ease;*/
+/*}*/
+
+/*.btn-zombie:hover {*/
+/*    background-color: #ff3131;*/
+/*    box-shadow: 0 0 20px #ff3131;*/
+/*    transform: scale(1.05);*/
+/*}*/
+
+/*!* Tortue image exemple *!*/
+/*.tortue {*/
+/*    width: 15%;*/
+/*    border: 2px solid #8f0000;*/
+/*    box-shadow: 0 0 10px #8f0000;*/
+/*    animation: shake 5s infinite;*/
+/*}*/
+
+/*!* TITRES *!*/
+/*h1, h2, h3 {*/
+/*    color: #ff3131;*/
+/*    text-shadow: 2px 2px #000;*/
+/*    text-transform: uppercase;*/
+/*    animation: glitch 3s infinite;*/
+/*}*/
+
+/*!* ANIMATIONS *!*/
+
+/*@keyframes flicker {*/
+/*    0%, 100% { opacity: 1; }*/
+/*    40% { opacity: 0.9; }*/
+/*    45% { opacity: 0.4; }*/
+/*    50% { opacity: 0.7; }*/
+/*    55% { opacity: 0.3; }*/
+/*    60% { opacity: 0.9; }*/
+/*    70% { opacity: 1; }*/
+/*}*/
+
+/*@keyframes shake {*/
+/*    0%, 100% { transform: translate(0); }*/
+/*    25% { transform: translate(-1px, 1px); }*/
+/*    50% { transform: translate(2px, -1px); }*/
+/*    75% { transform: translate(-2px, 2px); }*/
+/*}*/
+
+/*@keyframes glitch {*/
+/*    0% { transform: none; }*/
+/*    20% { transform: skew(0.5deg, 0.5deg); }*/
+/*    40% { transform: translate(-2px, 2px) skew(-0.5deg, -0.5deg); }*/
+/*    60% { transform: translate(2px, -2px); }*/
+/*    80% { transform: none; }*/
+/*    100% { transform: translate(-1px, 1px); }*/
+/*}*/
+
+/* --------------- ELEMENT 51 ---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at center, #001112, #000000);
+    color: #00f0e0;
+    font-family: 'Share Tech Mono', monospace;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header - labo techno / mystérieux */
+header {
+    background-color: #001d23;
+    border-bottom: 3px solid #00e5c6;
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: #00f0e0;
+    box-shadow: 0 0 15px #00e5c6;
+    animation: flicker 3s infinite;
+}
+
+/* Footer - data neon */
+footer {
+    text-align: center;
+    background-color: #00332f;
+    padding: 1em;
+    color: #00f0e0cc;
+    font-size: 0.9rem;
+    border-top: 2px solid #00e5c6;
+    box-shadow: 0 -2px 10px #00e5c6;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+/* Main - ambiance laboratoire secret */
+main {
+    flex: 1;
+    padding: 2rem;
+    background: repeating-linear-gradient(
+            45deg,
+            #001214,
+            #001214 10px,
+            #002026 10px,
+            #002026 20px
+    );
+}
+
+/* Liens */
+a {
+    color: #00e5c6;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #80fff7;
+    text-shadow: 0 0 5px #00e5c6;
+    letter-spacing: 2px;
+}
+
+/* Boutons techno neon */
+.btn-element51 {
+    background-color: #00e5c6;
+    color: #001d23;
+    border: none;
+    padding: 0.5em 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #00e5c6;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-element51:hover {
+    background-color: #80fff7;
+    box-shadow: 0 0 20px #80fff7;
+    transform: scale(1.05);
+}
+
+/* zombie image exemple */
+.panzer {
+    width: 30%;
+    border: 2px solid #00e5c6;
+    box-shadow: 0 0 10px #00e5c6;
+    animation: shake 5s infinite;
+}
+
+/* TITRES */
+h1, h2, h3 {
+    color: #00e5c6;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+    animation: glitch 3s infinite;
+}
+
+/* ANIMATIONS */
+
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    40% { opacity: 0.9; }
+    45% { opacity: 0.4; }
+    50% { opacity: 0.7; }
+    55% { opacity: 0.3; }
+    60% { opacity: 0.9; }
+    70% { opacity: 1; }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translate(0); }
+    25% { transform: translate(-1px, 1px); }
+    50% { transform: translate(2px, -1px); }
+    75% { transform: translate(-2px, 2px); }
+}
+
+@keyframes glitch {
+    0% { transform: none; }
+    20% { transform: skew(0.5deg, 0.5deg); }
+    40% { transform: translate(-2px, 2px) skew(-0.5deg, -0.5deg); }
+    60% { transform: translate(2px, -2px); }
+    80% { transform: none; }
+    100% { transform: translate(-1px, 1px); }
+}
+
+.zombie {
+    width: 40%;
+
+}
+.chicken {
+    width: 6%;
+}
+
+.tableWish {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.tableWish th,
+.tableWish td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableWish th {
+    font-weight: bold;
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{parent()}} Détails Wishes{% endblock %}
+
+
+
+
+{% block body %}
+
+    <h2> En construction d'une 4ème page</h2>
+
+
+    <table class="tableWish">
+        <tr>
+            <th>Id</th>
+            <th>Titre</th>
+            <th>Description</th>
+            <th>Author</th>
+            <th>Date de création</th>
+        </tr>
+
+        {%  for wish in wishes %}
+            <tr>
+                <td>{{ wish.id }}</td>
+                <td>{{ wish.title }}</td>
+                <td>{{ wish.description }}</td>
+                <td>{{ wish.author }}</td>
+                <td>{{ wish.dateCreated|date('d/m/Y') }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}
