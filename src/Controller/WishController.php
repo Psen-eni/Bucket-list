@@ -16,7 +16,7 @@ final class WishController extends AbstractController
     {
         
 
-        return $this->render('wish/index.html.twig', [
+        return $this->render('wish/edit.html.twig', [
             'controller_name' => 'WishController',
         ]);
     }

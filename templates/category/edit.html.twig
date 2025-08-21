@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() }}- Editer un voeu{% endblock %}
+
+{% block body %}
+    <h1>Editer un voeu</h1>
+    <div class="row justify-content-center">
+        <div class="col-6">
+            {{ form(category_form) }}
+        </div>
+    </div>
+
+{% endblock %}
